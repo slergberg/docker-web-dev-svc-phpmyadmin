@@ -1,5 +1,5 @@
 # Base image
-FROM phpmyadmin/phpmyadmin:4.8.4
+FROM phpmyadmin/phpmyadmin:4.8.5
 
 # Expose ports
 EXPOSE 80
