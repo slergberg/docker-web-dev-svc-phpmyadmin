@@ -1,6 +1,9 @@
 # Base image
 FROM phpmyadmin/phpmyadmin:4.9
 
+# Configurations
+ADD ./configs/*.ini /usr/local/etc/php/conf.d/
+
 # Expose ports
 EXPOSE 80
 
