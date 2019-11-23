@@ -1,5 +1,5 @@
 # Base image
-FROM phpmyadmin/phpmyadmin:4.9
+FROM phpmyadmin/phpmyadmin:latest
 
 # Configurations
 ADD ./configs/*.ini /usr/local/etc/php/conf.d/
