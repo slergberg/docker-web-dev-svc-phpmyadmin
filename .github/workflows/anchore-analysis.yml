@@ -24,7 +24,7 @@ jobs:
           repository: ${{ env.DOCKER_IMAGE_NAME }}
           tags: latest
       - name: Perform Anchore analysis
-        uses: anchore/scan-action@v3.3.2
+        uses: anchore/scan-action@v3.3.3
         with:
           acs-report-enable: true
           dockerfile-path: Dockerfile
